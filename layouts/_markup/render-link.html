@@ -1,0 +1,11 @@
+{{- /* (C) PSK OG Marienheide e.V., VR/Köln 1369 */ -}}
+{{- $url := .Destination -}}
+{{- $destination := urls.Parse $url -}}
+{{- if not $destination.Host -}}
+  {{- if hasPrefix $url "/" -}}
+    {{- $url = relURL (strings.TrimPrefix "/" $url) -}}
+  {{- else -}}
+    {{- with .Page.Resources.GetMatch $url }}{{ $url = .RelPermalink }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- partial "link.html" (dict "url" $url "text" (.Text | safeHTML) "title" .Title) -}}

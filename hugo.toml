@@ -1,0 +1,41 @@
+# (C) PSK OG Marienheide e.V., VR/Köln 1369
+baseURL = 'https://www.psk-og-marienheide.de/'
+locale = 'de-DE'
+defaultContentLanguage = 'de'
+title = 'PSK OG Marienheide e.V.'
+timeZone = 'Europe/Berlin'
+disableKinds = ['taxonomy', 'term', 'RSS']
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+unsafe = false
+
+[[menus.main]]
+name = 'Über uns'
+pageRef = '/ueber-uns'
+weight = 10
+
+[[menus.main]]
+name = 'Unsere Hunde'
+pageRef = '/unsere-hunde'
+weight = 20
+
+[[menus.main]]
+name = 'Ausbildung & Sport'
+pageRef = '/ausbildungsport'
+weight = 30
+
+[[menus.main]]
+name = 'Termine'
+pageRef = '/termine'
+weight = 40
+
+[[menus.main]]
+name = 'Archiv'
+pageRef = '/archiv'
+weight = 50
+
+[[menus.main]]
+name = 'Downloads'
+pageRef = '/downloads'
+weight = 60

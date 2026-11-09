@@ -1,0 +1,39 @@
+{{- /* (C) PSK OG Marienheide e.V., VR/Köln 1369 */ -}}
+{{ define "main" }}
+<section class="hero wrap" aria-labelledby="willkommen">
+  <div class="hero-copy">
+    <p class="eyebrow">Hundesport im Bergischen Land</p>
+    <h1 id="willkommen">{{ .Title }}</h1>
+    <div class="intro">{{ .Content }}</div>
+    <div class="actions">
+      <a class="button" href="{{ with site.GetPage `/ueber-uns` }}{{ .RelPermalink }}{{ end }}">Unsere Ortsgruppe kennenlernen <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="#training">Zu den Trainingszeiten ↓</a>
+    </div>
+  </div>
+  {{ with resources.Get "images/training.jpg" }}
+  {{ $photo := .Resize "1100x webp q85" }}
+  <figure class="hero-photo"><div class="hero-frame"><img src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" alt="Gemeinsame Übungsstunde mit Hunden auf unserer Platzanlage"></div><figcaption>Zusammen auf dem Platz.</figcaption></figure>
+  {{ end }}
+</section>
+<section class="training-section" id="training" aria-labelledby="trainingszeiten">
+  <div class="wrap training-layout">
+    <div><p class="eyebrow">Zeit für Hundesport</p><h2 id="trainingszeiten">Wir sehen uns<br>auf dem Platz.</h2><p>Unsere regelmäßigen Trainingstermine.</p><p>{{ partial "link.html" (dict "url" "https://maps.app.goo.gl/i9jiHUEkJ4Y1B9yr5" "text" "So finden Sie zu uns") }} (externer Link, führt zu Google Maps)
+      </p></div>
+    <dl class="training-times">
+      {{ range .Params.training }}
+      <div><dt>{{ .day }}</dt><dd><strong>{{ .time }}</strong><span>{{ .note }}</span></dd></div>
+      {{ end }}
+    </dl>
+  </div>
+</section>
+<section class="wrap discover" aria-labelledby="entdecken">
+  <div class="section-heading"><div><p class="eyebrow">Unsere Ortsgruppe</p><h2 id="entdecken">Mit Freude dabei.</h2></div><p>Ausbildung, Austausch und gemeinsame Zeit mit unseren Hunden.</p></div>
+  <div class="cards">
+    {{ range slice `/ueber-uns` `/unsere-platzanlage` `/galerie` }}
+    {{ with site.GetPage . }}
+    <a class="card" href="{{ .RelPermalink }}"><span class="card-number" aria-hidden="true">↗</span><h3>{{ .Title }}</h3><p>{{ .Description }}</p><span class="card-link">Mehr erfahren <span aria-hidden="true">→</span></span></a>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

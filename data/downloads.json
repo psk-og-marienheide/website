@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Antrag auf Ausstellung einer Leistungsurkunde",
+    "revision": "2023",
+    "description": "Leistungsurkunde des PSK; auf der bisherigen Seite als Leistungskarte bezeichnet.",
+    "publisher": "Pinscher-Schnauzer-Klub 1895 e.V.",
+    "source_url": "https://psk-projekt.jimdoweb.com/app/download/9185176314/2023_Antrag-Leistungsurkunde.pdf?t=1683215438",
+    "retrieved": "2026-11-09",
+    "url": "/downloads/leistungsurkunde.pdf",
+    "path": "static/downloads/leistungsurkunde.pdf",
+    "legacy_urls": [
+      "/wp-content/uploads/2019/01/Antrag-auf-Ausstellung-einer-Leistungskarte.pdf"
+    ],
+    "bytes": 77077,
+    "sha256": "cf1b8fb49304ca5f603410bc2d99f640fa0008b97c84244851dd4eaf0ae5845c"
+  },
+  {
+    "title": "Anmeldung zur Prüfung",
+    "revision": "2025",
+    "description": "Anmeldeformular des Pinscher-Schnauzer-Klubs.",
+    "publisher": "Pinscher-Schnauzer-Klub 1895 e.V.",
+    "source_url": "https://psk-projekt.jimdoweb.com/app/download/9243010114/2025_anmeldung_pruefung.pdf?t=1740598488",
+    "retrieved": "2026-11-09",
+    "url": "/downloads/anmeldung-pruefung.pdf",
+    "path": "static/downloads/anmeldung-pruefung.pdf",
+    "legacy_urls": [
+      "/wp-content/uploads/2019/01/Anmeldung-zur-Prüfung.pdf"
+    ],
+    "bytes": 75584,
+    "sha256": "d328dae7c7e5ffa032500cc1b095d6ea44883a36d3478b4f8c801688a3b0fffa"
+  },
+  {
+    "title": "Sachkundenachweis NRW – Fragenkatalog",
+    "revision": "Stand Mai 2019",
+    "description": "Fragenkatalog der Stadt Köln zum Landeshundegesetz NRW (§§ 3/10).",
+    "publisher": "Stadt Köln",
+    "source_url": "https://www.stadt-koeln.de/mediaasset/content/pdf57/sachkundenachweis_pruefungsfragenkatalog_gefaehrliche_hunde052019_.pdf",
+    "retrieved": "2026-11-09",
+    "url": "/downloads/sachkundenachweis-nrw-koeln-2019.pdf",
+    "path": "static/downloads/sachkundenachweis-nrw-koeln-2019.pdf",
+    "legacy_urls": [
+      "/wp-content/uploads/2016/07/sachkundenachweis-1.pdf"
+    ],
+    "bytes": 914822,
+    "sha256": "372b60aedb50591912e377f363d454947ff1d32ddf7a51b4124d6b3a86f9bbaf"
+  }
+]

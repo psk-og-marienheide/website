@@ -1,0 +1,6 @@
+<!-- (C) PSK OG Marienheide e.V., VR/Köln 1369 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="5" fill="#17477b"/>
+  <path d="M0 0h64v7H0z" fill="#f6d64a"/>
+  <text x="32" y="42" text-anchor="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#fff">PSK</text>
+</svg>

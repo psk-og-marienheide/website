@@ -1,0 +1,74 @@
+{{- /* (C) PSK OG Marienheide e.V., VR/Köln 1369 */ -}}
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="{{ .Description | default `Pinscher, Schnauzer und Hundesport: die Ortsgruppe Marienheide im Pinscher-Schnauzer-Klub 1895 e.V.` }}">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
+  {{ with resources.Get "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{ end }}
+  {{ with resources.Get "js/site.js" | minify | fingerprint }}
+  <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+  {{ end }}
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="PSK OG Marienheide – Startseite">
+        {{ with resources.Get "images/dog-heads.png" }}
+        {{ $logo := .Resize "272x png" }}
+        <img class="brand-logo" src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="" aria-hidden="true">
+        {{ end }}
+        <span>OG Marienheide<span class="brand-subtitle">Pinscher-Schnauzer-Klub</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="hauptnavigation" hidden>Menü</button>
+      <nav id="hauptnavigation" class="site-nav" aria-label="Hauptnavigation">
+        {{ range site.Menus.main }}
+        <a href="{{ .URL }}"{{ if $.IsMenuCurrent .Menu . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+      <label class="theme-control" hidden>
+        <span class="sr-only">Farbschema</span>
+        <select id="farbschema" aria-label="Farbschema">
+          <option value="system">Hell/Dunkel</option>
+          <option value="light">Hell</option>
+          <option value="dark">Dunkel</option>
+        </select>
+      </label>
+    </div>
+  </header>
+  {{ with resources.Get "images/cropped-img04.jpg" }}
+  {{ $wide := .Resize "1200x webp q85" }}
+  {{ $small := .Resize "600x webp q85" }}
+  <div class="site-banner wrap">
+    <img src="{{ $wide.RelPermalink }}" srcset="{{ $small.RelPermalink }} 600w, {{ $wide.RelPermalink }} 1200w" sizes="(max-width: 48rem) calc(100vw - 2.5rem), (max-width: 64rem) calc(100vw - 3rem), (max-width: 80rem) calc(100vw - 5rem), 1200px" width="{{ $wide.Width }}" height="{{ $wide.Height }}" alt="PSK OG Marienheide e.V. – Pinscher und Schnauzer vor einer Wiesenlandschaft">
+  </div>
+  {{ end }}
+  <main id="inhalt" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><strong>PSK OG Marienheide e.V.</strong><p>Gemeinsam aktiv. Seit 1979.</p><p>{{ partial "link.html" (dict "url" "https://maps.app.goo.gl/i9jiHUEkJ4Y1B9yr5" "text" "So finden Sie zu uns") }} (externer Link, führt zu Google Maps)
+      </p></div>
+      <nav class="footer-links" aria-label="Weitere Seiten">
+        {{ range slice `/ueber-uns/unser-team-2` `/unsere-platzanlage` `/galerie` `/impressum` `/datenschutz` }}
+        {{ with site.GetPage . }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+        {{ end }}
+        <a href="{{ site.Home.RelPermalink }}">Zur Startseite ↑</a>
+      </nav>
+    </div>
+    {{ with resources.Get "images/fci-vdh-psk.png" }}
+    <div class="wrap footer-organizations">
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Logos der Fédération Cynologique Internationale (FCI), des Verbands für das Deutsche Hundewesen (VDH) und des Pinscher-Schnauzer-Klubs (PSK)" loading="lazy">
+    </div>
+    {{ end }}
+    <div class="wrap footer-bottom"><small>(C) PSK OG Marienheide e.V., VR/Köln 1369</small></div>
+  </footer>
+</body>
+</html>

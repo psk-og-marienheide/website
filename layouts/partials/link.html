@@ -1,0 +1,5 @@
+{{- /* (C) PSK OG Marienheide e.V., VR/Köln 1369 */ -}}
+{{- $destination := urls.Parse .url -}}
+{{- $base := urls.Parse site.BaseURL -}}
+{{- $external := and (ne $destination.Host "") (in (slice "" "http" "https") (lower $destination.Scheme)) (ne (lower $destination.Host) (lower $base.Host)) -}}
+<a href="{{ .url | safeURL }}"{{ with .title }} title="{{ . }}"{{ end }}{{ if $external }} class="external-link" target="_blank" rel="noopener noreferrer"{{ end }}>{{ .text }}{{ if $external }}<span class="external-link-icon" aria-hidden="true">↗</span><span class="sr-only"> (öffnet in neuem Tab)</span>{{ end }}</a>

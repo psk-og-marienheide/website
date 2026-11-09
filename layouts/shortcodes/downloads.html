@@ -1,0 +1,14 @@
+{{- /* (C) PSK OG Marienheide e.V., VR/Köln 1369 */ -}}
+<div class="download-list">
+{{ range hugo.Data.downloads }}
+<section class="download">
+  <h2><a href="{{ strings.TrimPrefix `/` .url | relURL }}">{{ .title }}</a></h2>
+  <p>PDF · {{ lang.FormatNumber 0 (math.Ceil (div .bytes 1024.0)) }} KB · {{ .revision }}</p>
+  <p>{{ .description }}</p>
+  <details><summary>Herkunft und Prüfsumme</summary>
+    <p>{{ .publisher }} · Abgerufen am {{ .retrieved }} · {{ partial "link.html" (dict "url" .source_url "text" "Originalquelle") }}</p>
+    <p>SHA-256: <code>{{ .sha256 }}</code></p>
+  </details>
+</section>
+{{ end }}
+</div>

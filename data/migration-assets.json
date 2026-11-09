@@ -1,0 +1,244 @@
+[
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/SDC10985.jpg",
+    "path": "assets/images/training.jpg",
+    "sha256": "0ff7f97ddfac1a44146b74b739786df24f3ffe49e28b0075969fa5393fad0f2d"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/p09.jpg",
+    "path": "content/unsere-platzanlage/vereinsheim.jpg",
+    "sha256": "43144ff53516558fb8603bbdfd92df59539b4df8e00da9f849295bdbd2e597c8"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/SDC10985.jpg",
+    "path": "content/galerie/uebungsstunde.jpg",
+    "sha256": "0ff7f97ddfac1a44146b74b739786df24f3ffe49e28b0075969fa5393fad0f2d"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/SDC10952.jpg",
+    "path": "content/galerie/training.jpg",
+    "sha256": "f77a4446d13efd358cd177cd7c53ad59ea2f25e06cd22cbaf79c64cdde40b6bc"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/SDC10851.jpg",
+    "path": "content/galerie/schnauzer.jpg",
+    "sha256": "86490f08a7b1f574066aab1aac128b4ceb637fcf1620eafbafa4675c8af83db4"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/SDC10758.jpg",
+    "path": "content/galerie/zwergschnauzer.jpg",
+    "sha256": "b5dc5cab51369084359d17e77a08c13acf65d4342a0b374396c97aa8e8b0bb74"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/DSC00256-2.jpg",
+    "path": "content/unsere-hunde/DSC00256-2.jpg",
+    "sha256": "d6e4c1e403fb5cf2ecf51b08425a13fbee44f0a2e8f92c6cd3b306e2f485ab57"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/Leo2-1.jpg",
+    "path": "content/unsere-hunde/Leo2-1.jpg",
+    "sha256": "bac23f3cd1b02907f1990e8b4308b7ab25997461c62d4d007bbb8dd36baec914"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/IMG_1912-1200x800.jpg",
+    "path": "content/unsere-hunde/IMG_1912-1200x800.jpg",
+    "sha256": "ea32c1c5ab3e4fd4758749feaf1a8673bc149c9b5179b8f713f5fef889ba6e25"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/IMG_5346-1200x800.jpg",
+    "path": "content/unsere-hunde/IMG_5346-1200x800.jpg",
+    "sha256": "73af65b28fae6066a8f151466e99c4633ce683d694a47dac910c0ab5dc24dcb5"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/KCTR2757.jpg",
+    "path": "content/unsere-hunde/KCTR2757.jpg",
+    "sha256": "dfbaa73a021d11910d8b12f5f43dc677b55c62765fb39f67b6698c1110eb6882"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/DKBV5409.jpg",
+    "path": "content/unsere-hunde/DKBV5409.jpg",
+    "sha256": "aa3cca6563c7abfc3785d6ac12c9f3985d35c9112ea407bdf42aca43d395e9ec"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/Carry-1200x800.jpg",
+    "path": "content/unsere-hunde/Carry-1200x800.jpg",
+    "sha256": "3edf3183b5a6f32fc62b4e192ea9f0a4543cb04652da774549ee2b9a5c72837d"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/Wisky-1200x800.jpg",
+    "path": "content/unsere-hunde/Wisky-1200x800.jpg",
+    "sha256": "25678a383cd4138408c559265040f5301f997961ddcd93aa7cfbcfa97c11b6ea"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Mexx-scaled.jpeg",
+    "path": "content/unsere-hunde/Mexx-scaled.jpeg",
+    "sha256": "6b3ed3288082537a16f249bca82c9b0210971ee82942a0385d16300631d3635c"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Hedwig-scaled.jpeg",
+    "path": "content/unsere-hunde/Hedwig-scaled.jpeg",
+    "sha256": "255d3dc80554c0164fcd28be3820acbbd6c97a79e188be7edfc8783d5ad881b8"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Lenox-scaled.jpeg",
+    "path": "content/unsere-hunde/Lenox-scaled.jpeg",
+    "sha256": "1dfc37bd2cbe1c333ce8f133fce2243efa290289fe65896260710be0560b659e"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Nelson-scaled.jpeg",
+    "path": "content/unsere-hunde/Nelson-scaled.jpeg",
+    "sha256": "ba32b62affa510d2f0f01f2cb0826a1c3621b2d8acedafe12bf98731785d71d9"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/IMG_5354-1200x800.jpg",
+    "path": "content/unsere-hunde/IMG_5354-1200x800.jpg",
+    "sha256": "bd5c23c62eb389213cadd5cc38a9ba409556a7b330010147a3a320310040b2a7"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/Ginger-1-150x150.jpg",
+    "path": "content/unsere-hunde/Ginger-1-150x150.jpg",
+    "sha256": "9e4923d7e4f02567f8d761c139085c77c55fabca44ec835123bd608ae305676d"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/IMG_5364-1200x800.jpg",
+    "path": "content/unsere-hunde/IMG_5364-1200x800.jpg",
+    "sha256": "77cc9ef9b4d0035ed7eea85aa2aef009c69f6ae9d5e64144499d78c498a38255"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/08/JBAAE7581.jpg",
+    "path": "content/unsere-hunde/JBAAE7581.jpg",
+    "sha256": "8525b3621741a09920939ec69a139ca92b9e015da13b601f82d7915d38374634"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/357D66DE-C280-4C1B-BEE8-5645AA584C86.jpeg",
+    "path": "content/unsere-hunde/357D66DE-C280-4C1B-BEE8-5645AA584C86.jpeg",
+    "sha256": "f5ddbd1d48ed36400910891a9cc4195dd6634b3f206babeb1ff45e63ce95bfa5"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/E97EC10C-C13A-4F4A-A852-DB4DD58B7752.jpeg",
+    "path": "content/unsere-hunde/E97EC10C-C13A-4F4A-A852-DB4DD58B7752.jpeg",
+    "sha256": "bfb4b1c4004ba35ac38ed70dd05f4698ce45ae8fc8a371da7bc32103c3475c0b"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/Theo2-1-150x150.jpg",
+    "path": "content/unsere-hunde/Theo2-1-150x150.jpg",
+    "sha256": "52ca5ce7d66a6c5bb01a74aa19c205bdfd6113d71745650724ac345e3fa4c00f"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/Hugo-1-150x150.jpg",
+    "path": "content/unsere-hunde/Hugo-1-150x150.jpg",
+    "sha256": "88cff351fe8b6f528078571bc061ede11f29cf579a89cfd70e7f0f73096be529"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/02/Raja-1200x800.jpg",
+    "path": "content/unsere-hunde-2-2/in-memoriam/Raja-1200x800.jpg",
+    "sha256": "ef20df341d5748840e85620b1e1a793c04bd46ad06be240504cb8ce0ed378b22"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/PICT0330-1.jpg",
+    "path": "content/unsere-hunde-2-2/in-memoriam/PICT0330-1.jpg",
+    "sha256": "ecef3b71590b0ad3708bf4ad331612df7a130ca3b63774cf0229368e88446683"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/p00.jpg",
+    "path": "content/welpenjunghunde/p00.jpg",
+    "sha256": "4b56715cb8ae6138150282cfcebfa0b2db1ac9087fcd227740c4443a2ff56ef3"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/Ginger.jpg",
+    "path": "content/welpenjunghunde/Ginger.jpg",
+    "sha256": "618a95dab456dc0e6e29501226c491bc6348341a527b803e7bd4140ee5da5200"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/IMG_1064.jpg",
+    "path": "content/ueber-uns/unser-team-2/IMG_1064.jpg",
+    "sha256": "53c600e34c39747641a32232b6e77de632201fb2c0664c42c40126b2a625751f"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/p09.jpg",
+    "path": "content/unsere-platzanlage/p09.jpg",
+    "sha256": "43144ff53516558fb8603bbdfd92df59539b4df8e00da9f849295bdbd2e597c8"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/kl-150x150.jpg",
+    "path": "content/unsere-platzanlage/kl-150x150.jpg",
+    "sha256": "9c725fbbbd5fdc01c093a223a63313dc5f11ce1e5a0cf55b47970b932841123c"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/klö-150x150.jpg",
+    "path": "content/unsere-platzanlage/klö-150x150.jpg",
+    "sha256": "389cc05841df0caec6dec513abcaca4c4d9b0f2b942a849fd35fb3e1d15b80ce"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/06/6-Hunderennen.pdf",
+    "path": "static/wp-content/uploads/2019/06/6-Hunderennen.pdf",
+    "sha256": "d37c884885d818522a82dea1d704f5bfd1a3d013c52a96afedffc0c69088f60b"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/02/Einladung-Pruefung-Mai-26-1-pdf.jpg",
+    "path": "content/2026/02/27/ortsgruppenpruefung/Einladung-Pruefung-Mai-26-1-pdf.jpg",
+    "sha256": "57e24e5ff3f340535404dc0b99433436423881e5c4271a4d2fbd83c801990166"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/02/Einladung-Pruefung-Mai-26.pdf",
+    "path": "static/wp-content/uploads/2026/02/Einladung-Pruefung-Mai-26.pdf",
+    "sha256": "47690ee60f64b8f3ff9e3ae36433eb4e9be59560f7c2b6c28239bc2efacc35f2"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Flyer-4.jpg",
+    "path": "content/2026/05/25/hunderennen-2026/Flyer-4.jpg",
+    "sha256": "a380a4e3c4d0b5b27f6f9fe2b23aa3c98d28cd24dd37ab0138c63798e88aaec3"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Logo-Belcando-pdf.jpg",
+    "path": "content/2026/05/25/hunderennen-2026/Logo-Belcando-pdf.jpg",
+    "sha256": "f258bd74498e3309b90a47e8cb4097353c0862405ae6e19be0d493dae8bf9075"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/HappyDog_Claim_300dpi-scaled.jpg",
+    "path": "content/2026/05/25/hunderennen-2026/HappyDog_Claim_300dpi-scaled.jpg",
+    "sha256": "b28e57c440391a7934a5e84751905256ae8f1258bbc819343d1c26ad28c7e130"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Good-Boy.jpg",
+    "path": "content/2026/05/25/hunderennen-2026/Good-Boy.jpg",
+    "sha256": "1e3d14a59d786695760fcad706beb5dc83f33abd74579db44cde963795126b84"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Schecker_Logo_Logo_Scheckergruen_g_Slogan_w_Kontur.png",
+    "path": "content/2026/05/25/hunderennen-2026/Schecker_Logo_Logo_Scheckergruen_g_Slogan_w_Kontur.png",
+    "sha256": "ea1f91013c5d4db8345eb4988d3dfc36f62da6da3bd50af14a9705f51f3c05af"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2026/05/Flyer-4.jpg",
+    "path": "static/wp-content/uploads/2026/05/Flyer-4.jpg",
+    "sha256": "a380a4e3c4d0b5b27f6f9fe2b23aa3c98d28cd24dd37ab0138c63798e88aaec3"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/SDC11007-150x150.jpg",
+    "path": "content/galerie/SDC11007-150x150.jpg",
+    "sha256": "0d89dc7b1a8c5281d73cd099599a36ff87744324d55a4348e436e063508c2aa5"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/SDC10906-150x150.jpg",
+    "path": "content/galerie/SDC10906-150x150.jpg",
+    "sha256": "bdb654a787158029a8ac12384034101d087b70619ba092de0a19238bcc3dc86d"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2019/01/SDC10924-150x150.jpg",
+    "path": "content/galerie/SDC10924-150x150.jpg",
+    "sha256": "a11922189ceef37a692d8e4c2f8976bec4ede930aa63ee91a65782f2049c6182"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/cropped-img04.jpg",
+    "path": "assets/images/cropped-img04.jpg",
+    "sha256": "76baee94ddd8d987ab95fb876c149e17feb68de27153df00cb0c8d6c6ea554d8"
+  },
+  {
+    "source_url": "http://www.psk-og-marienheide.de/wp-content/uploads/2016/07/start.jpg",
+    "source_sha256": "47c056535f65c173fa772f3a908c2e80437ad112721f875ad19eda4ee693c7b7",
+    "path": "assets/images/dog-heads.png",
+    "sha256": "be1a3413dafe1f2ba85291d6864326d1ee5605b2a9884fe79847ec117edc1a03",
+    "modification": "AI-assisted transparent cut-out of the three heads; background, text and lower emblem removed. Derived bitmap, not a pixel-identical extraction."
+  }
+]

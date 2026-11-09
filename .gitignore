@@ -1,0 +1,9 @@
+# (C) PSK OG Marienheide e.V., VR/Köln 1369
+
+# Local migration evidence contains obsolete content and is not site source.
+/reference/
+/public/
+/build/
+/resources/
+/.hugo_build.lock
+/.idea/

@@ -1,0 +1,5 @@
+{{- /* (C) PSK OG Marienheide e.V., VR/Köln 1369 */ -}}
+{{- $source := .Page.Resources.GetMatch (.Get "file") -}}
+{{- if not $source }}{{ errorf "Photo missing on %s: %s" .Page.Path (.Get "file") }}{{ end -}}
+{{- $photo := $source.Fit "1100x1000 webp q85" -}}
+<figure class="content-photo"><a href="{{ $source.RelPermalink }}" aria-label="{{ .Get `alt` | default (.Get `caption`) | default `Foto` }} – Originalbild öffnen"><img src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" alt="{{ .Get `alt` | default (.Get `caption`) }}" loading="lazy"></a>{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>

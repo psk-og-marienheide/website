@@ -1,0 +1,18 @@
+{{- /* (C) PSK OG Marienheide e.V., VR/Köln 1369 */ -}}
+<article class="wrap article">
+  <header class="page-heading"><a class="breadcrumb" href="{{ site.Home.RelPermalink }}">Startseite</a><p class="eyebrow">PSK OG Marienheide</p><h1>{{ .Title }}</h1><p class="lead">{{ .Description }}</p></header>
+  {{ if .Params.historical }}<aside class="archive-notice" aria-label="Archivhinweis">Historischer Beitrag{{ with .Date }} · Veröffentlicht am {{ .Format "02.01.2006" }}{{ end }}. Die ursprüngliche Ankündigung folgt unten.</aside>{{ end }}
+  <div class="prose">{{ .Content }}
+    {{ if not .Content }}<ul>{{ range .Pages.ByDate.Reverse }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>{{ end }}
+  </div>
+  {{ with .Params.gallery }}
+  <div class="gallery">
+    {{ range . }}
+    {{ $source := $.Resources.GetMatch .file }}
+    {{ if not $source }}{{ errorf "Gallery image missing: %s" .file }}{{ end }}
+    {{ $photo := $source.Resize "960x webp q85" }}
+    <figure><a href="{{ $source.RelPermalink }}" aria-label="{{ .alt }} – Originalbild öffnen"><img src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" alt="{{ .alt }}" loading="lazy"></a><figcaption>{{ .caption }}</figcaption></figure>
+    {{ end }}
+  </div>
+  {{ end }}
+</article>
